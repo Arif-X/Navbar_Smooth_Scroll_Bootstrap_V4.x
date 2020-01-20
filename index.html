@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="#section1">Section 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="#section2">Section 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="#section3">Section 3</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown01">
+						<a class="dropdown-item" href="#section41">Section 4-1</a>
+						<a class="dropdown-item" href="#section42">Section 4-2</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<main role="main">
+		<div id="section1" class="container-fluid">
+			<h1>Section 1</h1>
+			<p>This is Section 1 From Nav Link</p>
+		</div>
+		<div id="section2" class="container-fluid">
+			<h1>Section 2</h1>
+			<p>This is Section 2 From Nav Link</p>
+		</div>
+		<div id="section3" class="container-fluid">
+			<h1>Section 3</h1>
+			<p>This is Section 3 From Nav Link</p>
+		</div>
+		<div id="section41" class="container-fluid">
+			<h1>Section 4 Submenu 1</h1>
+			<p>This is Section 4 Submenu 1 From Nav Link (Dropdown)</p>
+		</div>
+		<div id="section42" class="container-fluid">
+			<h1>Section 4 Submenu 2</h1>
+			<p>This is Section 4 Submenu 2 From Nav Link (Dropdown)</p>
+		</div>
+	</main>
+	<script src="lib/animate/animate.js"></script>
+	<script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>	
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="lib/jquery/jquery-3.2.1.slim.min.js"></script>
+	<script src="lib/jquery/jquery.min.js"></script>
+
+</body>
+</html>
